@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 0.5rem 1rem !important;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: #558985 !important;
+}  
+
+.dropdown-menu {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-item:hover {
+    background-color: #558985;
+    color: white;
+}
+
+.navbar-brand {
+    margin-right: 1rem !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-collapse {
+    display: flex !important;
+    flex-basis: auto !important;
+}
+
+table {
+    z-index: 1;
+    background-color: rgba(255,255,255, 0.95);
+    border-color: rgba(0, 0, 0, 0.592) !important;
+}
+
+tr, td, th {
+    border-color: rgba(0, 0, 0, 0.592) !important; 
+}
+
+#content-wrapper {
+    overflow-x: visible !important;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.container-fluid {
+    --bs-gutter-x: 0 !important;
+}
+
+.form-control {
+    margin-left: 3px;
+}
+
+.input-group {
+    flex-wrap: nowrap !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-bottom: 50px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.flex-row-reverse {
+    margin-bottom: 20px;
+    margin-right: 2rem;
+}
+
+footer.sticky-footer {
+    padding: 2rem 0 3rem !important;
+}
